@@ -45,7 +45,7 @@ due to bash-socket-based checks. As a result you can also use e.g. LibreSSL or O
 (silent) check for binaries is done when you start testssl.sh . System V needs probably
 to have GNU grep installed. MacOS X and Windows (using MSYS2, Cygwin or WSL) work too.
 
-Update notification here or @ [twitter](https://twitter.com/drwetter).
+Update notification here or @ [mastodon](https://infosec.exchange/@testssl) (old: [twitter](https://twitter.com/drwetter))
 
 ### Installation
 
@@ -83,8 +83,7 @@ Support for 2.9.5 has been dropped. Supported is >= 3.0.x only.
 
 * .. it is there for reading. Please do so :-) -- at least before asking questions. See man page in groff, html and markdown format in `~/doc/`.
 * [https://testssl.sh/](https://testssl.sh/) will help to get you started.
-* For the (older) version 2.8 will Hunt provides a longer, good [description](https://www.4armed.com/blog/doing-your-own-ssl-tls-testing/), including useful background info.
-
+* For the (older) version 2.8, Will Hunt provides a longer [description](https://www.4armed.com/blog/doing-your-own-ssl-tls-testing/), including useful background information.
 
 ### Contributing
 

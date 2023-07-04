@@ -4,7 +4,7 @@ on:
   push:
     paths-ignore:
       - 'utils/**'
-      - 'docs/**'
+      - 'doc/**'
       - 'bin/**'
       - '**.md'
       - '**.pem'
@@ -15,7 +15,7 @@ on:
   pull_request:
     paths-ignore:
       - 'utils/**'
-      - 'docs/**'
+      - 'doc/**'
       - 'bin/**'
       - '**.md'
       - '**.pem'
@@ -23,6 +23,9 @@ on:
       - '**.html'
       - 'LICENSE'
       - 'Dockerfile'
+
+permissions:
+  contents: read
 
 jobs:
   build:
@@ -33,7 +36,7 @@ jobs:
         perl: ['5.26']
     name: Perl ${{ matrix.perl }} on ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Set up perl
         uses: shogo82148/actions-setup-perl@v1
         with:
